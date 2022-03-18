@@ -9,6 +9,9 @@ public class Customer {
         this(name);
         this.cust=cust;
     }
+    public float offmoney(){
+        return (cust/1000)*off*1000;
+    }
     public void print(){
         float offmoney=(cust/1000*off*1000);
         System.out.println(name+"\t"+cust+"\t"+(cust-offmoney));
