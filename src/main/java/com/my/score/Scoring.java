@@ -1,4 +1,4 @@
-package com.my;
+package com.my.score;
 
     public class Scoring {
         public static void main(String[] args) {

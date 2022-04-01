@@ -1,4 +1,4 @@
-package com.my;
+package com.my.sales;
 
 public class Customer {
     String name;

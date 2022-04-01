@@ -1,4 +1,7 @@
-package com.my;
+package com.my.sales;
+
+import com.my.sales.Customer;
+import com.my.sales.SilverCustmer;
 
 public class Rules {
     public static void main(String[] args) {
