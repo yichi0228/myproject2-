@@ -11,9 +11,23 @@ public class Ticket {
     public Ticket(Station start,Station destination) {
         this.start = start;
         this.destination = destination;
+        if(start==Station.TAIPEI_STATION){
+            if(destination==Station.TAICHUNG_STATION){
+                price=600;
+            }else {
+                price=1500;
+            }
+        }else if (start==Station.TAICHUNG_STATION){
+            if(destination==Station.KAOHSIUNG_STATION){
+                price=900;
+            }else {
+                price=1500;
+            }
+        }
     }
 
     public  void print(){
-        //taipeiStation=105;
+        System.out.println(start.name+"\t"+destination.name+"\t"+price);
+
     }
 }
