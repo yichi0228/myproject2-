@@ -1,6 +1,6 @@
 package com.my.score;
 
-public class  Student {
+public class  Student implements Printable {
     String  name;
     int english;
     int math;
@@ -19,6 +19,7 @@ public class  Student {
         english=-1;
         math=-1; */
     }
+    @Override
     public void print(){
         System.out.print(name+"\t"+english+"\t"+math+"\t"+getAverage());
         if(getAverage()<60){
